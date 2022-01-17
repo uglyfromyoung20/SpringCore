@@ -18,8 +18,8 @@ public class MusicPlayer {
 
 
 
-    public void playMusic(){
-        System.out.println("Playing:"+ classicalMusic.getSong());
-        System.out.println("Playing:"+ rockMusic.getSong());
+    public String playMusic(){
+        return "Playing:"+ classicalMusic.getSong();
+
     }
 }
