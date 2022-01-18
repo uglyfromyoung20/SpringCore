@@ -2,9 +2,6 @@ package org.example;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- * @author Neil Alishev
- */
 public class Spring {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(

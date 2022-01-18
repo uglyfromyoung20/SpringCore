@@ -6,9 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
-/**
- * @author Neil Alishev
- */
+
 @Component
 public class MusicPlayer {
     private ClassicalMusic classicalMusic;
